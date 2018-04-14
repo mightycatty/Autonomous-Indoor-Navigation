@@ -1,6 +1,6 @@
 '''
 This code is solely for the purpose of extracting the bottle-neck features
-using the VGG-16 model without the top full connect layer
+using the ResNet50 model without the top full connect layer
  '''
 import numpy as np
 from keras.preprocessing.image import ImageDataGenerator
