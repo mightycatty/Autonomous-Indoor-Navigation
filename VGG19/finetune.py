@@ -26,7 +26,7 @@ tbCallBack = TensorBoard(log_dir='./ft_Graph', histogram_freq=0, write_graph=Tru
 
 callbacks_list = [tbCallBack]
 
-# build the VGG16 network
+# build the VGG19 network
 base_model = applications.VGG19(weights='imagenet', include_top=False, input_shape=(224,224,3))
 print('Model loaded.')
 
