@@ -9,6 +9,6 @@ For each flavour, the model is first initialized with IMAGENET pretraining weigh
 
 `train_topmodel.py` trains the top model (`fc` and `softmax` layers) using the extracted bottleneck features saved on disk.
 
-`finetune.py` unfreezes the last convolutions layers of the pretrained model and fine-tunes the weights together with the top model trained in the previous step.
+`finetune.py` unfreezes the last convolutional layers of the pretrained model and fine-tunes the weights together with the top model trained in the previous step.
 
 `infer.py` performs inference using the fine-tuned model on novel images.
