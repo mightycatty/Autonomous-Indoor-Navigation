@@ -1,6 +1,6 @@
 
 '''
-This code is fo rmaking inference. This is the final stage
+This code is for making inference. This is the final stage
 '''
 
 import numpy as np
@@ -38,7 +38,7 @@ def predict():
 
     image = np.expand_dims(image, axis=0)
 
-    # build the VGG16 network
+    # build the VGG19 network
     model = applications.VGG16(include_top=False, weights='imagenet')
 
     # get the bottleneck prediction from the pre-trained VGG16 model
